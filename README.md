@@ -8,3 +8,5 @@ Tänk vi kan till och med göra en anslutning till en kompis. En anslutning där
 
 Då är du helt plötsligt inte längre beroende av den tredje parten.
 
+## Uppdatering ett år senare
+Att bara hålla datan hos sig självt är uteslutet, för att det ska fungera måste du ha en server, din egna plats på Internet. Ett stort problem är att vi idag betalar hos företagen med våran integritet och data. Vi ändrar förhållandet genom att ett företag hyr ut en server till dig. Företaget kan inte läsa din data och ska göra sitt yttersta för att inte göra det (annars byter du leverantör).

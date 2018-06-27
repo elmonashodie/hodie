@@ -1,5 +1,4 @@
 # Hodie
-// TODO: Translate to English
 
 Idag är vi beroende av en tredje part för att kunna ta kontakt med varandra, vanligtvis ett företag. Jag ser en del problem med detta, dels att vi får godkänna kilometerlånga avtal där vi inte förstår ett ord vad det står och att vi inte längre orka bry oss. I slutändan så vet vi ändå att dom gör vad dom vill med våran data. Det finns såklart fler anledningar till att jag inte gillar systemet att vara beroende av ett företag men… Tänk om..
 

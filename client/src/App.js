@@ -1,12 +1,12 @@
+'use strict'
+
 import React from 'react'
 import './App.css'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <p>Hello world!</p>
-      <p>Hello world!</p>
-      <p>Hello world!</p>
+      <h1>Alma</h1>
     </div>
   )
 }

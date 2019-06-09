@@ -3,7 +3,7 @@ const path = require('path')
 const isDev = require('electron-is-dev')
 // const applicationMenu = require('./menu')
 
-const appIcon = path.join(__dirname, 'appIcon.png')
+// const appIcon = path.join(__dirname, 'appIcon.png')
 const appName = 'Hodie'
 
 // const notifier = require('node-notifier')

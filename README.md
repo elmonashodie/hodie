@@ -28,18 +28,5 @@ Då är du helt plötsligt inte längre beroende av den tredje parten.
 ## Uppdatering ett år senare
 Att bara hålla datan hos sig självt är uteslutet, för att det ska fungera måste du ha en server, din egna plats på Internet. Ett stort problem är att vi idag betalar hos företagen med våran integritet och data. Vi ändrar förhållandet genom att ett företag hyr ut en server till dig. Företaget kan inte läsa din data och ska göra sitt yttersta för att inte göra det (annars byter du leverantör). Du betalar en måndadskostnad för att hyra servern och sedan gör du som du vill.
 
-## Så här gör vi.
-Vi börjar med två stycken applikationer.
-* nodejsbackend
-* electronfrontend
-
-### nodejsbackend (hodie)
-Det är de svarta lådorna som ni ser på bilden. Lägg upp den på en server med ett giltigt certifikat och domännamn, detta för att kunna registrera och lyssna på webhooks ifrån olika tjänster typ messenger. Det ska i början vara ett REST API där man som klient kan registrera sig och att man enkelt ska kunna lägga till nya webhooks. Tanken är inte att det ska finnas en nodejsbackend utan väldigt många. Lägg gärna upp eran egna version!! Till att börja med så lägger jag upp en som vi alla kan använda oss utav för att underlätta utvecklingen.
-
-Klienten ska kunna gör en websocket anslutning till nodejsbackend och den pushar ut uppdateringar till klienten.
-
-### electronfrontend
-En electron frontend skriven i React. Skapa en websocket anslutning emot nodejsbackend och lyssna på nya events från serven. Tänk examination 3 1dv022.
-
 ### Steg 1
 Vi skapar ett proof of concept, en wrapper runt Messengers API och ser om vi kan göra våran egna chatttjänst.

@@ -1,4 +1,21 @@
-![Hodie](https://github.com/elmonashodie/hodie/blob/master/pics/Hodie.jpg)
+![hodie-pod](https://github.com/elmonashodie/hodie/blob/master/pics/hodie-pod.png)
+
+# hodie-pod
+
+## Funktionella krav
+* Ett eget domännamn
+* Giltigt certifikat (https)
+* Ta emot anslutning från klienten med websocket.
+* Ett REST-api för registrering/inlogg
+* JWT för verifiering av WSS
+* MongoDB databas för att spara användaruppgifter och meddelanden.
+* Docker (gärna pipelines med installationsscript)
+* Express (flest studenter kan använda det)
+
+# Client
+* Kan skrivas i vilket språk man vill och kommunciera med hodie-pod
+* Gärna React!
+* Tänk återanvändbara komponenter och exam3 i 1dv022
 
 Idag är vi beroende av en tredje part för att kunna ta kontakt med varandra, vanligtvis ett företag. Jag ser en del problem med detta, dels att vi får godkänna kilometerlånga avtal där vi inte förstår ett ord vad det står och att vi inte längre orka bry oss. I slutändan så vet vi ändå att dom gör vad dom vill med våran data. Det finns såklart fler anledningar till att jag inte gillar systemet att vara beroende av ett företag men… Tänk om..
 
